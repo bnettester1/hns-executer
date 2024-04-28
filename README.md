@@ -11,9 +11,11 @@ Nodejs setup: https://nodejs.org/en/download
 Ubuntu linux setup: https://ubuntu.com/download
 
 1. Git clone https://github.com/bnettester1/hns-executer.git
+```
 cd hns-executer
 npm i
 npm i -g nodemon
+```
 
 2. Setup database Couchbase
 On ubuntu linux, having docker, run
@@ -38,8 +40,10 @@ docker run -d --name kj_mqtt --restart unless-stopped  -p 1883:1883 -p 8083:8083
 - Chat
 
 6. Run host
+```
 cd hns-executer
 nodemon
+```
 
 # run 
 Open browser, goto: localhost:8076
